@@ -19,6 +19,9 @@ public class TweetProcessor {
         // TODO Rozdělení textu do slov a spočítání počtu jejich výskytů.
         // TODO Implementace je hotová, pokud uspěje unit test TweeProcessorTest.
 
+        TweetStats tweetStats = TweetStats.EMPTY;
+        String[] res = text.toLowerCase().split(" ");
+
         return TweetStats.DUMMY;
     }
 }
